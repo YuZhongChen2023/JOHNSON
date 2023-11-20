@@ -11,21 +11,21 @@ def index():
     homepage += "<a href=/autobiographyprofile>求職履歷</a><br>"
     return homepage
 
-@app.route("/johnson")
+@app.route("/about")
 def johnson():
     return render_template("johnson.html")
 
-@app.route("/work")
+@app.route("/about")
 def work():
     return render_template("work.html")
 
-@app.route("/ucantest")
+@app.route("/about")
 def ucantest():
 	return render_template("ucantest.html")
 
-@app.route("/autobiography profile")
+@app.route("/about")
 def profile():
-    return render_template("autobiography profile.html")
+    return render_template("autobiographyprofile.html")
 
 if __name__ == "__main__":
     app.debug = True
