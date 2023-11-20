@@ -12,7 +12,7 @@ def index():
     return homepage
 
 @app.route("/johnson")
-def about():
+def johnson():
     return render_template("johnson.html")
 
 @app.route("/work")
@@ -20,14 +20,14 @@ def work():
     return render_template("work.html")
 
 @app.route("/ucantest")
-def test():
+def ucantest():
 	return render_template("ucantest.html")
 
 @app.route("/autobiography proflie")
-def proflie():
+def autobiography proflie():
     return render_template("autobiography proflie.html")
 
-#if __name__ == "__main__":
-    #app.debug = True
-    #app.run()
+if __name__ == "__main__":
+    app.debug = True
+    app.run()
     
