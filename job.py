@@ -15,16 +15,16 @@ def index():
 def johnson():
     return render_template("johnson.html")
 
-@app.route("/about")
+@app.route("/work")
 def work():
     return render_template("work.html")
 
-@app.route("/about")
+@app.route("/ucantest")
 def ucantest():
 	return render_template("ucantest.html")
 
-@app.route("/about")
-def profile():
+@app.route("/autobiographyprofile")
+def autobiographyprofile():
     return render_template("autobiographyprofile.html")
 
 if __name__ == "__main__":
