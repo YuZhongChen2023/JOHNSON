@@ -8,7 +8,7 @@ def index():
     homepage += "<a href=/about>我的個人簡介</a><br>"
     homepage += "<a href=/work>資管相關工作介紹</a><br>"
     homepage += "<a href=/ucantest>職涯測驗結果</a><br>"
-    homepage += "<a href=/autobiographyproflie>求職履歷</a><br>"
+    homepage += "<a href=/autobiographyprofile>求職履歷</a><br>"
     return homepage
 
 @app.route("/johnson")
@@ -23,9 +23,9 @@ def work():
 def ucantest():
 	return render_template("ucantest.html")
 
-@app.route("/autobiography proflie")
-def autobiography proflie():
-    return render_template("autobiography proflie.html")
+@app.route("/autobiography profile")
+def autobiography profile():
+    return render_template("autobiography profile.html")
 
 if __name__ == "__main__":
     app.debug = True
