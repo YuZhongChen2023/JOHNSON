@@ -24,7 +24,7 @@ def ucantest():
 	return render_template("ucantest.html")
 
 @app.route("/autobiography profile")
-def autobiography profile():
+def profile():
     return render_template("autobiography profile.html")
 
 if __name__ == "__main__":
